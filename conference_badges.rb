@@ -16,6 +16,7 @@ end
 end
 
 def printer(names)
-names.map do |name| "Hello, my name is #{name}."
+names.map do |name|
+   "Hello, my name is #{name}."
 end
 end
