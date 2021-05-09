@@ -10,9 +10,11 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(names)
-#  arr = [ ]
   names.map.with_index(1) do |name, room|
      "Hello, #{name}! You'll be assigned to room #{room}!"
-
 end
+end
+
+def printer
+
 end
