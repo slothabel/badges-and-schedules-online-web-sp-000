@@ -11,7 +11,8 @@ end
 
 def assign_rooms(speaker)
 #  arr = [ ]
-  speaker.each do |name, index|
-    puts "Hello, #{name}! You'll be assigned to room #{index}!"
+  speaker.each do |speaker, index|
+    puts "Hello, #{speaker}! You'll be assigned to room #{index}!"
+
 end
 end
